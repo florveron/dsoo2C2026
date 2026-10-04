@@ -33,6 +33,8 @@ cuenta_ahorro.extraer(-100)
 print(cuenta_ahorro.saldo)
 cuenta_ahorro.extraer(9)
 print(cuenta_ahorro.saldo)
+cuenta_ahorro.depositar(-19)
+print(cuenta_ahorro.saldo)
 
 
 
