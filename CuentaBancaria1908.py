@@ -24,6 +24,7 @@ class CuentaBancaria():
         else:
             print("Ingresá un número mayor a 0.")
         return self.saldo
+    
 cuenta_ahorro = CuentaBancaria("Pipo Lopez")
 print(cuenta_ahorro.saldo)
 cuenta_ahorro.depositar(10)
