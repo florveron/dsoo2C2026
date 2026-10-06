@@ -1,7 +1,5 @@
 # Sistema simple de turnos
 # bonus: no permitir dos turnos con la misma fecha y hora
-# Sistema simple de turnos
-# bonus: no permitir dos turnos con la misma fecha y hora
 class Paciente:
     def __init__(self,nombre,dni):
         self.nombre = nombre
